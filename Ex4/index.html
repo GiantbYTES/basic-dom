@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="name">
+        <p>Name</p>
+        <input type="text" id="nameInput" />
+      </div>
+      <div id="salary-birthday">
+        <div id="salary">
+          <p>Desired Salary</p>
+          <input type="number" id="salaryInput" />
+        </div>
+        <div id="birthday">
+          <p>Birthday</p>
+          <input type="date" id="birthdayInput" />
+        </div>
+      </div>
+      <div id="phone">
+        <p>Phone</p>
+        <input type="tel" id="phoneInput" />
+      </div>
+      <div id="error-submit">
+        <div id="error"></div>
+        <div id="submit" onclick="validate()"><p id="sub">Submit</p></div>
+      </div>
+    </div>
+    <script src="Ex4.js"></script>
+  </body>
+</html>
